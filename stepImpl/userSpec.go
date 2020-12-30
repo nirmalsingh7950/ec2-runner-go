@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/apoorvam/gauge-example-go/pages"
+	"pages"
 	"github.com/getgauge-contrib/gauge-go/gauge"
 )
 
