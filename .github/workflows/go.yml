@@ -19,5 +19,8 @@ jobs:
         echo "Connected successfully!"
     - name: Copy files from workspace to gopath
       run: |
+        if [ ! -d "$GOPATH/src/github.com/${{ github.event.repository.name }}" ]
+        then
         mkdir $GOPATH/src/github.com/${{ github.event.repository.name }}
+        fi
         cp -a . $GOPATH/src/github.com/${{ github.event.repository.name }}
