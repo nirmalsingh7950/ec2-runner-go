@@ -1,7 +1,7 @@
 package stepImpl
 
 import (
-	"github.com/apoorvam/gauge-example-go/pages"
+	"pages"
 	"github.com/getgauge-contrib/gauge-go/gauge"
 	"github.com/getgauge-contrib/gauge-go/testsuit"
 )
