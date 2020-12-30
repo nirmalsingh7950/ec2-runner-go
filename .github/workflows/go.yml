@@ -14,6 +14,9 @@ jobs:
     steps:
     - name: Check out code into the Go module directory
       uses: actions/checkout@v2
-    - name: Run echo command
+    - name: Connection Check
       run: |
         echo "Connected successfully!"
+    - name: Copy files from workspace to gopath
+      run: |
+        ls -la
