@@ -1,7 +1,7 @@
 package stepImpl
 
 import (
-	"pages"
+	"github.com/ec2-runner-go/pages"
 	"github.com/getgauge-contrib/gauge-go/gauge"
 	m "github.com/getgauge-contrib/gauge-go/models"
 )
