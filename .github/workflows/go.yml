@@ -24,3 +24,7 @@ jobs:
         mkdir $GOPATH/src/github.com/${{ github.event.repository.name }}
         fi
         cp -a . $GOPATH/src/github.com/${{ github.event.repository.name }}
+    - name: Run test
+      run: |
+        cd $GOPATH/src/github.com/${{ github.event.repository.name }}
+        gauge run specs/
