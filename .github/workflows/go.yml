@@ -19,4 +19,5 @@ jobs:
         echo "Connected successfully!"
     - name: Copy files from workspace to gopath
       run: |
-        ls -la
+        mkdir $GOPATH/src/github.com/${{ github.event.repository.name }}
+        cp -a . $GOPATH/src/github.com/${{ github.event.repository.name }}
