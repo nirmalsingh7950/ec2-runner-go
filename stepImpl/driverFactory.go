@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"pages"
+	"github.com/ec2-runner-go/pages"
 	"github.com/getgauge-contrib/gauge-go/gauge"
 	. "github.com/getgauge-contrib/gauge-go/testsuit"
 	"github.com/tebeka/selenium"
