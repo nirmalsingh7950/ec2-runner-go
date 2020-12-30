@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"time"
 
-	"pages"
+	"github.com/ec2-runner-go/pages"
 	"github.com/getgauge-contrib/gauge-go/gauge"
 )
 
