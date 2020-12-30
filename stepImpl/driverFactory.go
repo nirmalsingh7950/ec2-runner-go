@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/apoorvam/gauge-example-go/pages"
+	"pages"
 	"github.com/getgauge-contrib/gauge-go/gauge"
 	. "github.com/getgauge-contrib/gauge-go/testsuit"
 	"github.com/tebeka/selenium"
